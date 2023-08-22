@@ -1,0 +1,29 @@
+fun main() {
+	//criando array fixo, dados fixos como apis, mercado financeiro, bd, etc...
+	val listaTimes : Array<String> = arrayOf(
+    	"Grêmio", 
+   		"Juventude",
+        "Ypiranga",
+        "Avenida",
+        "Pelotas",
+        "Brasil de Pelotas",
+        "São José",
+        "Novo Hamburgo",
+        "Aimoré",
+        "Inter"
+    )
+    
+    //pegar tamanho da lista
+    println ( listaTimes.size)
+    
+    //pegar intervalo da lista
+    println ( listaTimes.indices)
+    
+    //puxar informação da lista
+    println( listaTimes[9])
+    
+    //varrer lista #1
+    for(i in 0..(listaTimes.size - 1)) {
+    println( listaTimes[i])
+}
+}
